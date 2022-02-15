@@ -1,0 +1,15 @@
+xorg-server
+xorg-xinit
+git
+openbox
+openbox-menu
+obconf
+lxappearance-obconf
+lxmenu-data
+menumaker
+picom
+ranger
+alacritty
+archlinux-wallpaper
+vim
+rofi

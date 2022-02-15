@@ -1,0 +1,69 @@
+!! Menu
+menu.border.width: 10
+menu.overlap.x:    -20
+menu.overlap.y:    -20
+menu.border.color:              #282A36
+menu.separator.color:           #282A36
+menu.title.bg:                  flat solid
+menu.title.bg.color:            #282A36
+menu.title.text.color:          #BD93F9
+menu.title.text.justify:        Center
+menu.items.bg:                  flat solid
+menu.items.bg.color:            #282A36
+menu.items.text.color:          #f8f8f2
+menu.items.disabled.text.color: #282A36
+menu.items.active.bg:           flat solid
+menu.items.active.bg.color:     #282A36
+menu.items.active.text.color:   #BD93F9
+
+!! Titlebar
+window.*.title.bg: flat
+window.*.label.bg: parentrelative
+window.active.title.bg.color: #9976c9
+window.active.label.text.color: #f8f8f2
+window.inactive.title.bg.color: #6272a4
+window.inactive.label.text.color: #d3d3d6
+window.label.text.justify: center
+
+!! Titlebar buttons
+window.*.button.*.bg: parentrelative
+window.*.button.*.pressed.bg: flat
+window.active.button.*.image.color: #282a36
+window.active.button.*.hover.image.color: #f8f8f2
+window.active.button.*.pressed.bg.color: #f8f8f2
+window.active.button.disabled.image.color: #d3d3d6
+window.inactive.button.*.image.color: #d3d3d6
+window.inactive.button.disabled.image.color: #d3d3d6
+
+!! Borders
+border.width: 0
+padding.width: 12
+padding.height: 8
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+window.active.border.color: #e7e8eb
+window.active.client.color:  #e7e8eb
+window.active.handle.bg: flat
+window.active.handle.bg.color: #e7e8eb
+window.active.grip.bg: flat
+window.active.grip.bg.color: #e7e8eb
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #e7e8eb
+window.inactive.border.color: #e7e8eb
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #e7e8eb
+window.inactive.client.color: #e7e8eb
+
+!! OSD
+osd.border.width: 0
+osd.border.color: #e7e8eb
+osd.label.text.color: #5c616c
+osd.bg: flat
+osd.bg.color: #e7e8eb
+osd.label.bg: flat
+osd.label.bg.color: #e7e8eb
+osd.hilight.bg: flat
+osd.hilight.bg.color: #aecdad
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #70788d

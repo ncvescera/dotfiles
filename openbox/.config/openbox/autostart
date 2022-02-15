@@ -1,0 +1,13 @@
+#!/bin/dash
+
+# Autostart Apps
+xset +fp ~/.fonts/misc/
+xset b off
+xset r rate 250 25
+xbacklight -set 5
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+picom -b
+hsetroot -tile /usr/share/backgrounds/archlinux/small.png
+xsettingsd &
+dunst -geometry "300x60-28+56" &
+conky &

@@ -1,0 +1,8 @@
+import:
+  - /home/pi/.config/alacritty/dracula.yml
+
+window:
+  padding:
+   x: 10
+   y: 10
+

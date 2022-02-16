@@ -10,4 +10,4 @@ picom -b
 hsetroot -tile /usr/share/backgrounds/archlinux/small.png
 xsettingsd &
 dunst -geometry "300x60-28+56" &
-conky &
+$HOME/.config/conky/Izar/start.sh

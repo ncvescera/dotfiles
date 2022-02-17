@@ -1,0 +1,60 @@
+{
+    "audio": "pulseaudio",
+    "bootloader": "grub-install",
+    "dry-run": false,
+    "gfx_driver": "All open-source (default)",
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "hostname": "gungnir-test",
+    "kernels": [
+        "linux-lts"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": {
+        "Italy": {
+            "http://archlinux.mirror.garr.it/archlinux/$repo/os/$arch": true,
+            "http://archlinux.mirror.server24.net/$repo/os/$arch": true,
+            "https://archlinux.mirror.server24.net/$repo/os/$arch": true,
+            "https://archmirror.it/repos/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "nic": "enp0s3"
+    },
+    "ntp": true,
+    "packages": [
+        "git",
+	"wget",
+	"zsh",
+	"base-devel",
+	"openbox",
+	"obconf",
+	"lxappearance-obconf",
+	"lxmenu-data",
+	"menumaker",
+	"picom",
+	"ranger",
+	"alacritty",
+	"archlinux-wallpaper",
+	"rofi"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/xorg.py"
+    },
+    "script": "guided",
+    "swap": false,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "Europe/Rome",
+    "version": "2.3.1",
+    "!root-password": "1234",
+    "!superusers": {
+	"ncvescera": {"!password": "1234"}
+    },
+    "custom-commands": [
+        "cd /home/ncvescera; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si",
+        "paru -Sy openbox-menu",
+        "cd /home/ncvescera; git clone https://github.com/ncvescera/dotfiles.git; cd dotfiles/openbox; cp -r * /home/ncvescera"
+    ]
+}

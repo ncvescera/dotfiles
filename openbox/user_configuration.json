@@ -27,17 +27,7 @@
         "git",
 	"wget",
 	"zsh",
-	"base-devel",
-	"openbox",
-	"obconf",
-	"lxappearance-obconf",
-	"lxmenu-data",
-	"menumaker",
-	"picom",
-	"ranger",
-	"alacritty",
-	"archlinux-wallpaper",
-	"rofi"
+	"base-devel"
     ],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/xorg.py"
@@ -53,8 +43,9 @@
 	"ncvescera": {"!password": "1234"}
     },
     "custom-commands": [
-        "cd /home/ncvescera; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si",
-        "paru -Sy openbox-menu",
-        "cd /home/ncvescera; git clone https://github.com/ncvescera/dotfiles.git; cd dotfiles/openbox; cp -r * /home/ncvescera"
+        "su ncvescera",
+	"cd /home/ncvescera; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si",
+        "cd /home/ncvescera; git clone https://github.com/ncvescera/dotfiles.git; cd dotfiles; cp -r openbox/. /home/ncvescera",
+	"cd openbox; paru -S --needed - < pkgs.txt"
     ]
 }

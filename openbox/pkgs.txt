@@ -13,3 +13,8 @@ alacritty
 archlinux-wallpaper
 vim
 rofi
+ttf-google-sans
+ttf-liberation
+ttf-dejavu
+ttc-iosevka
+conky

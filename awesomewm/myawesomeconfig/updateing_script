@@ -1,0 +1,26 @@
+dati=(
+"sesso !"
+"male non fare, paura non avere"
+"DIOCANEEEE"
+"Romani Gay"
+"Barisoni Gay"
+"Nodo"
+"Spooping"
+"Spinning Gorilla"
+"Se io avrei"
+"Perchè la madonna è vergine!!!"
+"E gloria a dio"
+"Per inciso lui sta tornando"
+"Geova ha una potenza illimitata"
+)
+
+len=${#dati[@]}
+while :
+do
+
+	i=$((RANDOM % len))
+	echo "${dati[$i]}"
+	#sed -i -e "s/content = .*/content = ${dati[$i]}/g" $HOME/.config/polybar/polybar-6/mymodul.ini
+	#polybar-msg cmd restart &
+	sleep 10
+done

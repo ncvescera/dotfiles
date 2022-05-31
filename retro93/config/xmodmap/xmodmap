@@ -1,0 +1,6 @@
+keycode 66 = Mode_switch
+keysym a = a A agrave
+keysym e = e E egrave
+keysym u = u U ugrave
+keysym i = i I igrave
+keysym o = o O ograve

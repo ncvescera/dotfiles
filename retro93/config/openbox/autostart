@@ -1,0 +1,4 @@
+# Autostart
+
+picom -b --config ~/.config/picom/picom.conf &
+xmodmap ~/.config/xmodmap/xmodmap &

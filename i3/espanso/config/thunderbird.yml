@@ -1,0 +1,4 @@
+filter_title: Thunderbird
+
+paste_shortcut: CTRL+SHIFT+V
+backend: Clipboard

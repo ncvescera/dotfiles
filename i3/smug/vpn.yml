@@ -1,0 +1,19 @@
+session: UniPg
+
+root: ~/
+
+windows:
+  - name: VPN
+    root: .
+    layout: main-vertical
+    # type: vertical
+    commands:
+      - unipgvpn
+
+  - name: Server
+    root: .
+    layout: main-vertical
+    # type: vertical
+    commands:
+      - sleep 10
+      - ssh <username>@unipg3090inf

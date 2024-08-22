@@ -8,7 +8,11 @@ neofetch
 
 # Aliases
 alias ls="logo-ls"
+alias v=nvim
+alias t=tmux
+alias c=bat
+alias cat=bat
+alias android="scrcpy --tcpip=192.168.178.21 &"
 
-# ENV Variables
-# Google Chrome Executable
-set -gx CHROME_EXECUTABLE /usr/bin/google-chrome-stable
+# Zoxide (better cd) configuration
+zoxide init --cmd cd fish | source
